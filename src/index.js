@@ -19,7 +19,6 @@ ReactDOM.render(
 ReactDOM.render(
     <div>
        <Demo/>
-       This is the continious Integration 
     </div>,
     demoDestination
 );

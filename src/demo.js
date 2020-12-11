@@ -18,10 +18,16 @@ class Demo extends Component {
       super();
       console.log("something");
       this.state = {color: "blue", type:"hummer"};
-      this.person = {firstname: "john"};
+      this.person = {firstname: "john", lastname:"Smith"};
     }
     render() {
-      return <h2>I am {this.person.firstname} and I have a {this.state.color} {this.state.type} Car!</h2>;
+      return (
+        <div className="demoClass">
+          <h2>I am {this.person.firstname} and I have a {this.state.color} {this.state.type} Car!</h2> 
+          <p>This is the newly added paragraph</p>
+          <h1>{this.person.lastname}</h1>
+        </div>
+      );
     }
 }
 
