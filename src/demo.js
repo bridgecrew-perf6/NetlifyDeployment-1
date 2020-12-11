@@ -24,7 +24,7 @@ class Demo extends Component {
       return (
         <div className="demoClass">
           <h2>I am {this.person.firstname} and I have a {this.state.color} {this.state.type} Car!</h2> 
-          <p>This is the newly added paragraphs 2</p>
+          <p>This is the newly added paragraphs 2 time</p>
           <h1>{this.person.lastname}</h1>
         </div>
       );
